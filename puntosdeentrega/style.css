@@ -1,0 +1,51 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: rgb(235, 207, 169);
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+margin: 10px;
+}
+img{
+    width: 180px;
+}
+h1{
+    font-size:30px;
+    color: rgb(9, 66, 7);
+font-family: Verdana, Geneva, Tahoma, sans-serif;}
+p{
+  font: 30px;  
+  color: rgb(0, 3, 1);
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgb(191, 236, 185);
+}
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.caja img {
+    border-radius: 50%;
+}
+.caja p{
+    font-size: 15px;
+}
